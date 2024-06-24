@@ -8,5 +8,7 @@ public abstract class Obstacle : MonoBehaviour
 	private float effectTime;
 	[SerializeField]
 	private float cooldownTime;
+	[SerializeField]
+	public float fireRate;
 	protected abstract void Effect();
 }
